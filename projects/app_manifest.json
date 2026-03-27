@@ -15,13 +15,13 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "1589f78178131f4dd306fb7083d6ad61"
+      "checksum": "3992d58ce313d715395167767d2b2442"
     },
     "app.py": {
       "checksum": "93a1e4b465115b37af97ec587c429539"
     },
     "app_manifest.json": {
-      "checksum": "5458f79eea3346cd94b603f1e6ed6877"
+      "checksum": "b7aaa47d640e01b1024d6ed88552a9d7"
     },
     "data_model.py": {
       "checksum": "1d7d7aded8087f11d1855e916498628e"
