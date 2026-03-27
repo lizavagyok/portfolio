@@ -6,13 +6,11 @@ from data_model import PortfolioData
 app_ui = ui.page_fluid(
     ui.h2("Object-Oriented Data Visualization"),
     ui.layout_sidebar(
-        ui.panel_sidebar(
+        ui.sidebar(
             ui.input_slider("n", "Number of Data Points", 10, 500, 100),
             ui.output_text("summary")
         ),
-        ui.panel_main(
-            ui.output_plot("plot"),
-        ),
+        ui.output_plot("plot"),
     ),
 )
 
