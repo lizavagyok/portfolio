@@ -15,10 +15,16 @@
   },
   "files": {
     "requirements.txt": {
-      "checksum": "ab787554e7c7a1d38a6ac3d4b7e47ea5"
+      "checksum": "1589f78178131f4dd306fb7083d6ad61"
     },
     "app.py": {
-      "checksum": "529e6b4bdd487bbea6558db890876496"
+      "checksum": "93a1e4b465115b37af97ec587c429539"
+    },
+    "app_manifest.json": {
+      "checksum": "5458f79eea3346cd94b603f1e6ed6877"
+    },
+    "data_model.py": {
+      "checksum": "1d7d7aded8087f11d1855e916498628e"
     },
     "shiny_app.qmd": {
       "checksum": "2d04e5a666ee313bbc16b3de620652f9"
