@@ -1,0 +1,7 @@
+---
+title: "Welcome to My Portfolio"
+---
+
+Hello! I'm Liza, a Data Science student. This portfolio showcases my work in data analysis and object-oriented programming.
+
+Feel free to explore my projects!

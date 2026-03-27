@@ -1,0 +1,9 @@
+---
+title: "Interactive Shiny App"
+---
+
+This is an interactive dashboard created with Shiny for Python and hosted on Posit Connect.
+
+::: {.column-page}
+<iframe src="https://example.posit.cloud/your-app-url" width="100%" height="700px" style="border: 1px solid #eee;"></iframe>
+:::

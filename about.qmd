@@ -1,0 +1,5 @@
+---
+title: "About Me"
+---
+
+I'm currently a 3rd-year Data Science and Society student at Central European University. My interests include machine learning, object-oriented programming, and interactive data visualizations.
