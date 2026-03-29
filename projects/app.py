@@ -23,14 +23,14 @@ def server(input, output, session):
     @render.text
     def summary():
         portfolio_data.update_points(input.n())
-        stats = portfolio_data.get_summary()
+        stats = portfolio_data.get_summary_stats()
         return f"Mean: {stats['y']['mean']:.2f} | Std: {stats['y']['std']:.2f}"
 
     @output
     @render.plot(alt="A dynamic line plot")
     def plot():
         portfolio_data.update_points(input.n())
-        df = portfolio_data.data
+        df = portfolio_data.clean_data
         plt.figure(figsize=(10, 6))
         plt.plot(df['x'], df['y'], marker='o', linestyle='-', color='blue')
         plt.title(f"Random Walk with {input.n()} points")
