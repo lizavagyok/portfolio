@@ -100,13 +100,24 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects/ds_project.html"> 
-<span class="menu-text">OECD Analysis</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects/ds_project.html">
+ <span class="dropdown-text">OECD Analysis</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/shiny_app.html">
+ <span class="dropdown-text">Shiny Dashboard</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./projects/shiny_app.html"> 
-<span class="menu-text">Shiny App</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -119,8 +130,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#who-i-am" id="toc-who-i-am" class="nav-link active" data-scroll-target="#who-i-am">Who I Am</a>
+  <ul class="collapse">
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#technical-skills" id="toc-technical-skills" class="nav-link" data-scroll-target="#technical-skills">Technical Skills</a></li>
+  <li><a href="#interests" id="toc-interests" class="nav-link" data-scroll-target="#interests">Interests</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -144,9 +166,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I’m currently a 3rd-year Data Science and Society student at Central European University. My interests include machine learning, object-oriented programming, and interactive data visualizations.</p>
+<section id="who-i-am" class="level2">
+<h2 class="anchored" data-anchor-id="who-i-am">Who I Am</h2>
+<p>I am a <strong>3rd-year Data Science and Society student</strong> at Central European University, specializing in translating data into actionable insights using both quantitative analysis and object-oriented software engineering.</p>
+<hr>
+<section id="education" class="level3">
+<h3 class="anchored" data-anchor-id="education">Education</h3>
+<ul>
+<li><strong>BSc in Data Science and Society</strong> | Central European University (2023 - Present)</li>
+<li><strong>Previous Degree/Certification</strong> | [Institution Name] (Year)</li>
+</ul>
+</section>
+<section id="technical-skills" class="level3">
+<h3 class="anchored" data-anchor-id="technical-skills">Technical Skills</h3>
+<ul>
+<li><strong>Programming</strong>: Python (Pandas, NumPy, Matplotlib, Shiny), R, SQL</li>
+<li><strong>Software Engineering</strong>: Object-Oriented Programming (OOP), Git/GitHub</li>
+<li><strong>Visualization</strong>: Quarto, Tableau, Plotly</li>
+<li><strong>Data Science</strong>: Machine Learning, Statistical Modeling, Data Pre-processing</li>
+</ul>
+</section>
+<section id="interests" class="level3">
+<h3 class="anchored" data-anchor-id="interests">Interests</h3>
+<ul>
+<li><strong>Interactive Visualization</strong>: Designing dashboards that make complex data accessible.</li>
+<li><strong>Sustainable Data</strong>: Exploring environmental datasets through a data-driven lens.</li>
+<li><strong>AI Ethics</strong>: Understanding the societal impact of algorithmic decision-making.</li>
+</ul>
+<hr>
+<p>When I’m not coding, you can find me exploring [Interest 1], reading [Book/Topic], or [Activity].</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

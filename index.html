@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to My Portfolio – Liza’s Portfolio</title>
+<title>Welcome – Liza’s Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -100,13 +100,24 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects/ds_project.html"> 
-<span class="menu-text">OECD Analysis</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects/ds_project.html">
+ <span class="dropdown-text">OECD Analysis</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/shiny_app.html">
+ <span class="dropdown-text">Shiny Dashboard</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./projects/shiny_app.html"> 
-<span class="menu-text">Shiny App</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -119,15 +130,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hi-im-liza" id="toc-hi-im-liza" class="nav-link active" data-scroll-target="#hi-im-liza">Hi, I’m Liza!</a>
+  <ul class="collapse">
+  <li><a href="#what-youll-find-here" id="toc-what-youll-find-here" class="nav-link" data-scroll-target="#what-youll-find-here">What you’ll find here:</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to My Portfolio</h1>
+<h1 class="title">Welcome</h1>
 </div>
 
 
@@ -144,10 +164,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hello! I’m Liza, a Data Science student. This portfolio showcases my work in data analysis and object-oriented programming.</p>
-<p>Feel free to explore my projects!</p>
+<section id="hi-im-liza" class="level2">
+<h2 class="anchored" data-anchor-id="hi-im-liza">Hi, I’m Liza!</h2>
+<p>I am a Data Scientist in training with a passion for turning complex data into interactive stories. This portfolio is a collection of my work, exploring the intersection of <strong>Object-Oriented Programming (OOP)</strong>, <strong>Data Analysis</strong>, and <strong>Interactive Web Development</strong>.</p>
+<section id="what-youll-find-here" class="level3">
+<h3 class="anchored" data-anchor-id="what-youll-find-here">What you’ll find here:</h3>
+<ul>
+<li>📊 <strong>Interactive Projects</strong>: Explore dashboards built with Shiny for Python and Quarto.</li>
+<li>💻 <strong>OOP Design</strong>: See how I use object-oriented principles to build clean, reusable data pipelines.</li>
+<li>🧬 <strong>Data Insights</strong>: Deep dives into OECD datasets and more.</li>
+</ul>
+<p>Feel free to explore my <a href="./projects/ds_project.html">Projects</a> or learn more <a href="./about.html">About Me</a>.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
