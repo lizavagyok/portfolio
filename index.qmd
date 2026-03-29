@@ -7,8 +7,8 @@ title: "Welcome"
 I am a Data Scientist in training with a passion for turning complex data into interactive stories. This portfolio is a collection of my work, exploring the intersection of **Object-Oriented Programming (OOP)**, **Data Analysis**, and **Interactive Web Development**.
 
 ### What you'll find here:
-- 📊 **Interactive Projects**: Explore dashboards built with Shiny for Python and Quarto.
-- 💻 **OOP Design**: See how I use object-oriented principles to build clean, reusable data pipelines.
-- 🧬 **Data Insights**: Deep dives into OECD datasets and more.
+- **Interactive Projects**: Explore dashboards built with Shiny for Python and Quarto.
+- **OOP Design**: See how I use object-oriented principles to build clean, reusable data pipelines.
+- **Data Insights**: Deep dives into OECD datasets and more.
 
 Feel free to explore my [Projects](projects/ds_project.qmd) or learn more [About Me](about.qmd).

@@ -2,3 +2,4 @@ shiny
 matplotlib
 numpy
 pandas
+seaborn

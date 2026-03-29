@@ -14,6 +14,8 @@ website:
         menu:
           - href: projects/ds_project.qmd
             text: OECD Analysis
+          - href: projects/ca_earnings.qmd
+            text: California Earnings
           - href: projects/shiny_app.qmd
             text: Shiny Dashboard
       - href: contact.qmd
