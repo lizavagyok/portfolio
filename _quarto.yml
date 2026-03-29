@@ -17,7 +17,7 @@ website:
           - href: projects/ca_earnings.qmd
             text: California Earnings
           - href: projects/shiny_app.qmd
-            text: Shiny Dashboard
+            text: OOP Showcase
       - href: contact.qmd
         text: Contact
 

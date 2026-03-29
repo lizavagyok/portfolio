@@ -11,9 +11,12 @@ In this project, I analyze health risk factors across OECD countries using an **
 - **Interactive Visualization**: Explore trends in alcohol consumption, tobacco use, and obesity across different nations.
 - **Dynamic Filtering**: Select specific health measures and countries to see how health trends have evolved over decades.
 
-### Interactive Dashboard
-Explore the data yourself using the interactive tool below.
+### Visual Analysis
 
-::: {.column-page}
-<iframe src="https://example.posit.cloud/your-ds-project-url" width="100%" height="800px" style="border: 1px solid #eee;"></iframe>
-:::
+Below are static visualizations generated from the OECD health risk factors dataset.
+
+#### Alcohol Consumption Trends
+![Alcohol Consumption Trends in select OECD countries](images/oecd_alcohol_trends.png){#fig-oecd-alcohol}
+
+#### Obesity Rates Comparison
+![Top 15 Countries by Obesity Rate (Latest Year)](images/oecd_obesity_comparison.png){#fig-oecd-obesity}

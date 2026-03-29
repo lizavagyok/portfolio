@@ -1,27 +1,22 @@
 ---
-title: "Interactive California Earnings Analysis"
+title: "California Earnings Analysis"
 ---
 
 ## Project Overview
 
-This interactive dashboard explores the 2014 Merged Outgoing Rotation Groups (MORG) data from the Current Population Survey (CPS), specifically focused on California. The analysis follows an **Object-Oriented Programming (OOP)** pattern, utilizing a custom `CAEarningsProcessor` class to handle data cleaning, transformation, and statistical calculations.
+This analysis explores the 2014 Merged Outgoing Rotation Groups (MORG) data from the Current Population Survey (CPS), specifically focused on California. The analysis follows an **Object-Oriented Programming (OOP)** pattern, utilizing a custom `CAEarningsProcessor` class to handle data cleaning, transformation, and statistical calculations.
 
 ### Technical Implementation
 
 -   **Inheritance**: `CAEarningsProcessor` inherits from `BaseDataProcessor`, ensuring a consistent interface for data loading and preprocessing.
 -   **Encapsulation**: Data filtering and grouping logic are encapsulated within class methods, keeping the visualization code clean and focused.
--   **Interactivity**: Built with **Shiny for Python**, allowing users to dynamically filter by education levels and switch between different analytical views.
 
 ### Key Visualizations
 
-1.  **Earnings by Education & Gender**: Visualize how weekly earnings scale with educational attainment and identify persistent gender wage gaps.
-2.  **Gender Gap by Union Membership**: Examine how unionization correlates with the magnitude of the gender wage gap.
-3.  **Hourly Wage Heatmap**: A detailed view of mean hourly wages across the top 15 occupations in California, segmented by education.
+Below are two key insights from the California earnings data:
 
-### Interactive Dashboard
+#### Earnings by Education and Gender
+![Mean Weekly Earnings by Education Level and Gender](images/ca_earnings_by_edu.png){#fig-ca-earnings}
 
-Explore the data yourself using the interactive tool below.
-
-::: {.column-page}
-<iframe src="https://example.posit.cloud/ca-earnings-analysis" width="100%" height="900px" style="border: 1px solid #eee;"></iframe>
-:::
+#### Union Membership and the Gender Wage Gap
+![Gender Wage Gap by Union Membership](images/ca_gender_gap_union.png){#fig-ca-gap}
