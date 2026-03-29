@@ -1,0 +1,17 @@
+---
+title: "Contact"
+---
+
+## Get in Touch
+
+If you'd like to collaborate on a project or just say hi, feel free to reach out through any of the platforms below!
+
+### Professional Links
+- **LinkedIn**: [Your LinkedIn Profile URL](https://www.linkedin.com/in/your-username)
+- **GitHub**: [Your GitHub Profile URL](https://github.com/lizavagyok)
+
+### Email
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+
+### Location
+- Based in: Budapest, Hungary / Vienna, Austria (Central European University)

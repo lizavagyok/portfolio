@@ -1,7 +1,14 @@
 ---
-title: "Welcome to My Portfolio"
+title: "Welcome"
 ---
 
-Hello! I'm Liza, a Data Science student. This portfolio showcases my work in data analysis and object-oriented programming.
+## Hi, I'm Liza!
 
-Feel free to explore my projects!
+I am a Data Scientist in training with a passion for turning complex data into interactive stories. This portfolio is a collection of my work, exploring the intersection of **Object-Oriented Programming (OOP)**, **Data Analysis**, and **Interactive Web Development**.
+
+### What you'll find here:
+- 📊 **Interactive Projects**: Explore dashboards built with Shiny for Python and Quarto.
+- 💻 **OOP Design**: See how I use object-oriented principles to build clean, reusable data pipelines.
+- 🧬 **Data Insights**: Deep dives into OECD datasets and more.
+
+Feel free to explore my [Projects](projects/ds_project.qmd) or learn more [About Me](about.qmd).

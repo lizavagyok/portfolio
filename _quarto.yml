@@ -10,10 +10,14 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: projects/ds_project.qmd
-        text: OECD Analysis
-      - href: projects/shiny_app.qmd
-        text: Shiny App
+      - text: Projects
+        menu:
+          - href: projects/ds_project.qmd
+            text: OECD Analysis
+          - href: projects/shiny_app.qmd
+            text: Shiny Dashboard
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
