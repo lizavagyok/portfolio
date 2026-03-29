@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../projects/shiny_app.html">
- <span class="dropdown-text">Shiny Dashboard</span></a>
+ <span class="dropdown-text">OOP Showcase</span></a>
   </li>  
     </ul>
   </li>
@@ -142,13 +142,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a>
   <ul class="collapse">
   <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
-  <li><a href="#interactive-dashboard" id="toc-interactive-dashboard" class="nav-link" data-scroll-target="#interactive-dashboard">Interactive Dashboard</a></li>
+  <li><a href="#visual-analysis" id="toc-visual-analysis" class="nav-link" data-scroll-target="#visual-analysis">Visual Analysis</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-overview" class="level2 page-columns page-full">
+<section id="project-overview" class="level2">
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <p>In this project, I analyze health risk factors across OECD countries using an <strong>Object-Oriented Programming (OOP)</strong> approach. By structuring the data processing logic into classes, I’ve created a maintainable and scalable analysis pipeline.</p>
 <section id="key-features" class="level3">
@@ -180,15 +180,37 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Dynamic Filtering</strong>: Select specific health measures and countries to see how health trends have evolved over decades.</li>
 </ul>
 </section>
-<section id="interactive-dashboard" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="interactive-dashboard">Interactive Dashboard</h3>
-<p>Explore the data yourself using the interactive tool below.</p>
-<div class="column-page">
-<iframe src="https://example.posit.cloud/your-ds-project-url" width="100%" height="800px" style="border: 1px solid #eee;">
-</iframe>
+<section id="visual-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="visual-analysis">Visual Analysis</h3>
+<p>Below are static visualizations generated from the OECD health risk factors dataset.</p>
+<section id="alcohol-consumption-trends" class="level4">
+<h4 class="anchored" data-anchor-id="alcohol-consumption-trends">Alcohol Consumption Trends</h4>
+<div id="fig-oecd-alcohol" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-oecd-alcohol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/oecd_alcohol_trends.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-oecd-alcohol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Alcohol Consumption Trends in select OECD countries
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="obesity-rates-comparison" class="level4">
+<h4 class="anchored" data-anchor-id="obesity-rates-comparison">Obesity Rates Comparison</h4>
+<div id="fig-oecd-obesity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-oecd-obesity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/oecd_obesity_comparison.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-oecd-obesity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Top 15 Countries by Obesity Rate (Latest Year)
+</figcaption>
+</figure>
 </div>
 
 
+</section>
 </section>
 </section>
 
