@@ -1,38 +1,52 @@
 [
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "If you’d like to collaborate on a project or just say hi, feel free to reach out through any of the platforms below!\n\n\n\nLinkedIn: Your LinkedIn Profile URL\nGitHub: Your GitHub Profile URL\n\n\n\n\n\nEmail: your.email@example.com\n\n\n\n\n\nBased in: Budapest, Hungary / Vienna, Austria (Central European University)"
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact",
-    "section": "",
-    "text": "If you’d like to collaborate on a project or just say hi, feel free to reach out through any of the platforms below!\n\n\n\nLinkedIn: Your LinkedIn Profile URL\nGitHub: Your GitHub Profile URL\n\n\n\n\n\nEmail: your.email@example.com\n\n\n\n\n\nBased in: Budapest, Hungary / Vienna, Austria (Central European University)"
-  },
-  {
-    "objectID": "portfolio_instruction.html",
-    "href": "portfolio_instruction.html",
+    "objectID": "docs/portfolio_instruction.html",
+    "href": "docs/portfolio_instruction.html",
     "title": "Individual project: Portfolio creation",
     "section": "",
     "text": "In this task, you will use your knowledge in object-oriented programming to create an online presence for yourself as a Data Scientist.\nThere are three aspects to OOP in the wild. First, OOP is a paradigm as you write a program to structure it. Second, OOP is a perspective with which to approach problems and how to see the world. Third, OOP is a mindset with which you can approach problems and act upon the world.\nThis project tries to introduce you to OOP in the wild. As you create a website with github pages, OOP is not necessary the first mode (web rendering is usually based on static html code that is not a priori OOP. However, to represent complex websites, you use more complex features and using OOP may help you. You will not learn html coding or css style sheets but you will use your knowledge of OOP concepts to instruct github copilot to help you create an interactive, interesting portfolio.\nThe second aspect is to show your data prowess, and we do this by embedding a shiny application server in your website. Github pages cannot execute code. However, you can use external services like the posit connect cloud to have an interactive window that executes python code. In this window, you are supposed to showcase your previous data science projects. You may investigate yourself how shiny works (and receive a short introduction in the class). Essentially, shiny makes graphs interactive and allows users to interact with your outcome visualisations. As a preparation, please revisit your previous work and find one to three projects, that you would like to highlight. To expand your portfolio, I would recommend you to add new results from other data science projects throughout your studies to showcase what you can do.\n\n\n\nTo complete this project, you have to create your online presence and fill it with content of your choice. You will not be graded for your actual content or the looks of your website. Instead, you will be graded on how you executed the project and how well you managed to implement OOP principles in the website.\nPlease investigate my github example here: https://github.com/jugdemon/2026_oop_portfolio\nAnd the corresponding github-pages:\nhttps://jugdemon.github.io/2026_oop_portfolio/\nYou may either fork the repository (create a copy to start with), or start from scratch. You fill find instructions for both below.\n\nCreate your github repository called “portfolio”. This will allow us to create your portfolio/personal website under https://.github.io/portfolio where user is your github user name. a. Use the repo link https://github.com//portfolio.git to setup your cloud computing and visual studio in the following steps\nCreate a posit connect cloud account via github integration.\n\nHere you can create data spaces for python to host your shiny app and display information interactively.\nSelect you want to deploy both apps and documents.\nSelect you prefer python.\n\nInstall VS Code and activate all AI features via github integration. If you have the github student version, you get more advanced features. Activate your student version if you haven’t yet. a. Go to the market place and install extensions for python, quarto and shiny.\nStart a chat on the right side. Ask the chat to create a project for your portfolio that uses quatro as a website and shiny for the visualization. The shiny server should run on posit cloud using the python version. All the code should be synced to your portfolio repository."
   },
   {
-    "objectID": "portfolio_instruction.html#context",
-    "href": "portfolio_instruction.html#context",
+    "objectID": "docs/portfolio_instruction.html#context",
+    "href": "docs/portfolio_instruction.html#context",
     "title": "Individual project: Portfolio creation",
     "section": "",
     "text": "In this task, you will use your knowledge in object-oriented programming to create an online presence for yourself as a Data Scientist.\nThere are three aspects to OOP in the wild. First, OOP is a paradigm as you write a program to structure it. Second, OOP is a perspective with which to approach problems and how to see the world. Third, OOP is a mindset with which you can approach problems and act upon the world.\nThis project tries to introduce you to OOP in the wild. As you create a website with github pages, OOP is not necessary the first mode (web rendering is usually based on static html code that is not a priori OOP. However, to represent complex websites, you use more complex features and using OOP may help you. You will not learn html coding or css style sheets but you will use your knowledge of OOP concepts to instruct github copilot to help you create an interactive, interesting portfolio.\nThe second aspect is to show your data prowess, and we do this by embedding a shiny application server in your website. Github pages cannot execute code. However, you can use external services like the posit connect cloud to have an interactive window that executes python code. In this window, you are supposed to showcase your previous data science projects. You may investigate yourself how shiny works (and receive a short introduction in the class). Essentially, shiny makes graphs interactive and allows users to interact with your outcome visualisations. As a preparation, please revisit your previous work and find one to three projects, that you would like to highlight. To expand your portfolio, I would recommend you to add new results from other data science projects throughout your studies to showcase what you can do."
   },
   {
-    "objectID": "portfolio_instruction.html#grading",
-    "href": "portfolio_instruction.html#grading",
+    "objectID": "docs/portfolio_instruction.html#grading",
+    "href": "docs/portfolio_instruction.html#grading",
     "title": "Individual project: Portfolio creation",
     "section": "",
     "text": "To complete this project, you have to create your online presence and fill it with content of your choice. You will not be graded for your actual content or the looks of your website. Instead, you will be graded on how you executed the project and how well you managed to implement OOP principles in the website.\nPlease investigate my github example here: https://github.com/jugdemon/2026_oop_portfolio\nAnd the corresponding github-pages:\nhttps://jugdemon.github.io/2026_oop_portfolio/\nYou may either fork the repository (create a copy to start with), or start from scratch. You fill find instructions for both below.\n\nCreate your github repository called “portfolio”. This will allow us to create your portfolio/personal website under https://.github.io/portfolio where user is your github user name. a. Use the repo link https://github.com//portfolio.git to setup your cloud computing and visual studio in the following steps\nCreate a posit connect cloud account via github integration.\n\nHere you can create data spaces for python to host your shiny app and display information interactively.\nSelect you want to deploy both apps and documents.\nSelect you prefer python.\n\nInstall VS Code and activate all AI features via github integration. If you have the github student version, you get more advanced features. Activate your student version if you haven’t yet. a. Go to the market place and install extensions for python, quarto and shiny.\nStart a chat on the right side. Ask the chat to create a project for your portfolio that uses quatro as a website and shiny for the visualization. The shiny server should run on posit cloud using the python version. All the code should be synced to your portfolio repository."
+  },
+  {
+    "objectID": "vis/analysis/variable_dictionary_detailed.html",
+    "href": "vis/analysis/variable_dictionary_detailed.html",
+    "title": "Variable Dictionary - CPS MORG 2014 (California)",
+    "section": "",
+    "text": "Variable Dictionary - CPS MORG 2014 (California)\n\n\n\n\n\n\n\n\n\n\n\n\nVarname\nLabel\nType\nCoverage\nRange\nMean\nMode\n\n\n\n\nUnnamed: 0\nUnnamed: 0\nIdentifier\n100.00%\nN/A\nN/A\n1210\n\n\nhhid\nHousehold ID\nIdentifier\n100.00%\nN/A\nN/A\n4909420790126\n\n\nintmonth\nInterview Month\nCategorical\n100.00%\nN/A\nN/A\nMarch\n\n\nstfips\nState (FIPS/Alpha)\nCategorical\n100.00%\nN/A\nN/A\nCA\n\n\nweight\nEarnings Weight\nfloat64\n100.00%\n676.49 - 8702.45\n3296.05\n2615.15\n\n\nearnwke\nWeekly Earnings\nfloat64\n100.00%\n0.01 - 2884.61\n947.59\n2884.61\n\n\nuhours\nUsual Hours Worked\nint64\n100.00%\n1 - 99\n38.31\n40\n\n\ngrade92\nHighest Education Level\nCategorical\n100.00%\nN/A\nN/A\n43\n\n\nrace\nRace\nCategorical\n100.00%\nN/A\nN/A\n1\n\n\nethnic\nEthnicity/Hispanic Origin\nCategorical\n37.57%\nN/A\nN/A\n1\n\n\nage\nAge\nint64\n100.00%\n16 - 64\n40.1\n34\n\n\nsex\nSex (1=M, 2=F)\nCategorical\n100.00%\nN/A\nN/A\n1\n\n\nmarital\nMarital Status\nCategorical\n100.00%\nN/A\nN/A\n1\n\n\nownchild\nNumber of Own Children\nint64\n100.00%\n0 - 7\n0.66\n0\n\n\nchldpres\nChildren Present in HH\nCategorical\n100.00%\nN/A\nN/A\n0\n\n\nprcitshp\nCitizenship Status\nCategorical\n100.00%\nN/A\nN/A\nNative, Born In US\n\n\nstate\nNumeric State Code\nCategorical\n100.00%\nN/A\nN/A\n9\n\n\nind02\nIndustry Code (2002)\nCategorical\n100.00%\nN/A\nN/A\nElementary and secondary schools (6111)\n\n\nocc2012\nOccupation Code (2012)\nCategorical\n100.00%\nN/A\nN/A\n4760\n\n\nclass\nWorker Class\nCategorical\n100.00%\nN/A\nN/A\nPrivate, For Profit\n\n\nunionmme\nUnion Member\nCategorical\n100.00%\nN/A\nN/A\nNo\n\n\nunioncov\nUnion Coverage\nCategorical\n83.21%\nN/A\nN/A\nNo\n\n\nlfsr94\nLabor Force Status\nCategorical\n100.00%\nN/A\nN/A\nEmployed-At Work"
+  },
+  {
+    "objectID": "vis/analysis/variable_dictionary.html",
+    "href": "vis/analysis/variable_dictionary.html",
+    "title": "Variable Dictionary - CPS MORG 2014 (California)",
+    "section": "",
+    "text": "Variable Dictionary - CPS MORG 2014 (California)\n\n\n\n\n\n\n\n\n\n\n\nVarname\nLabel\nType\nCoverage (%)\nMean\nMode\n\n\n\n\nUnnamed: 0\nIndex\nint64\n100\n147332\n1210\n\n\nhhid\nHousehold ID\nint64\n100\n4.39e+14\n4.91e+12\n\n\nintmonth\nInterview Month\nobject\n100\nN/A\nMarch\n\n\nstfips\nState FIPS (CA)\nobject\n100\nN/A\nCA\n\n\nweight\nFinal Weight\nfloat64\n100\n3297\n2615.16\n\n\nearnwke\nWeekly Earnings\nfloat64\n100\n948\n2884.61\n\n\nuhours\nUsual Hours Worked\nint64\n100\n39\n40\n\n\ngrade92\nEducation Level\nint64\n100\n41\n43\n\n\nrace\nRace\nint64\n100\n2\n1\n\n\nethnic\nEthnicity\nfloat64\n38\n2\n1.0\n\n\nage\nAge\nint64\n100\n41\n34\n\n\nsex\nSex (1=M, 2=F)\nint64\n100\n2\n1\n\n\nmarital\nMarital Status\nint64\n100\n4\n1\n\n\nownchild\n# Own Children\nint64\n100\n1\n0\n\n\nchldpres\nPresence of Children\nint64\n100\n2\n0\n\n\nprcitshp\nCitizenship\nobject\n100\nN/A\nNative, Born In US\n\n\nstate\nNumeric State Code\nint64\n100\n31\n9\n\n\nind02\nIndustry (2002)\nobject\n100\nN/A\nElementary/Sec schools\n\n\nocc2012\nOccupation (2012)\nint64\n100\n4092\n4760\n\n\nclass\nWorker Class\nobject\n100\nN/A\nPrivate, For Profit\n\n\nunionmme\nUnion Member\nobject\n100\nN/A\nNo\n\n\nunioncov\nUnion Coverage\nobject\n84\nN/A\nNo\n\n\nlfsr94\nLabor Force Status\nobject\n100\nN/A\nEmployed-At Work"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "I am a Data Scientist in training with a passion for turning complex data into interactive stories. This portfolio is a collection of my work, exploring the intersection of Object-Oriented Programming (OOP), Data Analysis, and Interactive Web Development.\n\n\n\nInteractive Projects: Explore dashboards built with Shiny for Python and Quarto.\nOOP Design: See how I use object-oriented principles to build clean, reusable data pipelines.\nData Insights: Deep dives into OECD datasets and more.\n\nFeel free to explore my Projects or learn more About Me."
+  },
+  {
+    "objectID": "index.html#hi-im-liza",
+    "href": "index.html#hi-im-liza",
+    "title": "Welcome",
+    "section": "",
+    "text": "I am a Data Scientist in training with a passion for turning complex data into interactive stories. This portfolio is a collection of my work, exploring the intersection of Object-Oriented Programming (OOP), Data Analysis, and Interactive Web Development.\n\n\n\nInteractive Projects: Explore dashboards built with Shiny for Python and Quarto.\nOOP Design: See how I use object-oriented principles to build clean, reusable data pipelines.\nData Insights: Deep dives into OECD datasets and more.\n\nFeel free to explore my Projects or learn more About Me."
   },
   {
     "objectID": "projects/shiny_app.html",
@@ -40,6 +54,20 @@
     "title": "Interactive Shiny App",
     "section": "",
     "text": "This is an interactive dashboard created with Shiny for Python and hosted on Posit Connect."
+  },
+  {
+    "objectID": "projects/ca_earnings.html",
+    "href": "projects/ca_earnings.html",
+    "title": "Interactive California Earnings Analysis",
+    "section": "",
+    "text": "This interactive dashboard explores the 2014 Merged Outgoing Rotation Groups (MORG) data from the Current Population Survey (CPS), specifically focused on California. The analysis follows an Object-Oriented Programming (OOP) pattern, utilizing a custom CAEarningsProcessor class to handle data cleaning, transformation, and statistical calculations.\n\n\n\nInheritance: CAEarningsProcessor inherits from BaseDataProcessor, ensuring a consistent interface for data loading and preprocessing.\nEncapsulation: Data filtering and grouping logic are encapsulated within class methods, keeping the visualization code clean and focused.\nInteractivity: Built with Shiny for Python, allowing users to dynamically filter by education levels and switch between different analytical views.\n\n\n\n\n\nEarnings by Education & Gender: Visualize how weekly earnings scale with educational attainment and identify persistent gender wage gaps.\nGender Gap by Union Membership: Examine how unionization correlates with the magnitude of the gender wage gap.\nHourly Wage Heatmap: A detailed view of mean hourly wages across the top 15 occupations in California, segmented by education.\n\n\n\n\nExplore the data yourself using the interactive tool below."
+  },
+  {
+    "objectID": "projects/ca_earnings.html#project-overview",
+    "href": "projects/ca_earnings.html#project-overview",
+    "title": "Interactive California Earnings Analysis",
+    "section": "",
+    "text": "This interactive dashboard explores the 2014 Merged Outgoing Rotation Groups (MORG) data from the Current Population Survey (CPS), specifically focused on California. The analysis follows an Object-Oriented Programming (OOP) pattern, utilizing a custom CAEarningsProcessor class to handle data cleaning, transformation, and statistical calculations.\n\n\n\nInheritance: CAEarningsProcessor inherits from BaseDataProcessor, ensuring a consistent interface for data loading and preprocessing.\nEncapsulation: Data filtering and grouping logic are encapsulated within class methods, keeping the visualization code clean and focused.\nInteractivity: Built with Shiny for Python, allowing users to dynamically filter by education levels and switch between different analytical views.\n\n\n\n\n\nEarnings by Education & Gender: Visualize how weekly earnings scale with educational attainment and identify persistent gender wage gaps.\nGender Gap by Union Membership: Examine how unionization correlates with the magnitude of the gender wage gap.\nHourly Wage Heatmap: A detailed view of mean hourly wages across the top 15 occupations in California, segmented by education.\n\n\n\n\nExplore the data yourself using the interactive tool below."
   },
   {
     "objectID": "projects/ds_project.html",
@@ -56,31 +84,87 @@
     "text": "In this project, I analyze health risk factors across OECD countries using an Object-Oriented Programming (OOP) approach. By structuring the data processing logic into classes, I’ve created a maintainable and scalable analysis pipeline.\n\n\n\nOOP Structure: Data loading, cleaning, and filtering are handled by a dedicated OECDDataProcessor class.\nInteractive Visualization: Explore trends in alcohol consumption, tobacco use, and obesity across different nations.\nDynamic Filtering: Select specific health measures and countries to see how health trends have evolved over decades.\n\n\n\n\nExplore the data yourself using the interactive tool below."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "about.html#i-am-a-3rd-year-data-science-and-society-student-at-central-european-university-majoring-in-data-science-and-economics.",
+    "href": "about.html#i-am-a-3rd-year-data-science-and-society-student-at-central-european-university-majoring-in-data-science-and-economics.",
     "title": "About Me",
-    "section": "",
-    "text": "I am a 3rd-year Data Science and Society student at Central European University, specializing in translating data into actionable insights using both quantitative analysis and object-oriented software engineering.\n\n\n\n\nBSc in Data Science and Society | Central European University (2023 - Present)\nPrevious Degree/Certification | [Institution Name] (Year)\n\n\n\n\n\nProgramming: Python (Pandas, NumPy, Matplotlib, Shiny), R, SQL\nSoftware Engineering: Object-Oriented Programming (OOP), Git/GitHub\nVisualization: Quarto, Tableau, Plotly\nData Science: Machine Learning, Statistical Modeling, Data Pre-processing\n\n\n\n\n\nInteractive Visualization: Designing dashboards that make complex data accessible.\nSustainable Data: Exploring environmental datasets through a data-driven lens.\nAI Ethics: Understanding the societal impact of algorithmic decision-making.\n\n\nWhen I’m not coding, you can find me exploring [Interest 1], reading [Book/Topic], or [Activity]."
+    "section": "I am a 3rd-year Data Science and Society student at Central European University, majoring in Data Science and Economics.",
+    "text": "I am a 3rd-year Data Science and Society student at Central European University, majoring in Data Science and Economics.\n\nEducation\n\nBSc in Data Science and Society | Central European University (2023 - 2026)\n\n\n\nTechnical Skills\n\nProgramming: Python (Pandas, NumPy, Matplotlib, Shiny), R, SQL\nSoftware Engineering: Object-Oriented Programming (OOP), Git/GitHub\nVisualization: Quarto, Tableau, Plotly\nData Science: Machine Learning, Statistical Modeling, Data Pre-processing\n\n\n\nInterests\n\nInteractive Visualization: Designing dashboards that make complex data accessible.\nSustainable Data: Exploring environmental datasets through a data-driven lens.\nAI Ethics: Understanding the societal impact of algorithmic decision-making."
   },
   {
-    "objectID": "about.html#who-i-am",
-    "href": "about.html#who-i-am",
-    "title": "About Me",
+    "objectID": "vis/analysis/earnings_report_california_2014.html",
+    "href": "vis/analysis/earnings_report_california_2014.html",
+    "title": "Analysis: The State of Earnings in California (2014)",
     "section": "",
-    "text": "I am a 3rd-year Data Science and Society student at Central European University, specializing in translating data into actionable insights using both quantitative analysis and object-oriented software engineering.\n\n\n\n\nBSc in Data Science and Society | Central European University (2023 - Present)\nPrevious Degree/Certification | [Institution Name] (Year)\n\n\n\n\n\nProgramming: Python (Pandas, NumPy, Matplotlib, Shiny), R, SQL\nSoftware Engineering: Object-Oriented Programming (OOP), Git/GitHub\nVisualization: Quarto, Tableau, Plotly\nData Science: Machine Learning, Statistical Modeling, Data Pre-processing\n\n\n\n\n\nInteractive Visualization: Designing dashboards that make complex data accessible.\nSustainable Data: Exploring environmental datasets through a data-driven lens.\nAI Ethics: Understanding the societal impact of algorithmic decision-making.\n\n\nWhen I’m not coding, you can find me exploring [Interest 1], reading [Book/Topic], or [Activity]."
+    "text": "This report analyzes data from the 2014 Merged Outgoing Rotation Groups (MORG) of the Current Population Survey (CPS). The focus is on California, examining how weekly earnings are influenced by education, gender, and union membership.\nDataset Overview: - Total California respondents: 12,490 - Overall average weekly earnings: $947.59\n\n\n\n\nEducation remains the most significant predictor of weekly earnings.\n\n\n\nEarnings by Education Level\n\n\n\n\n\n\n\n\n\n\n\nEducation Level\nMale Avg Weekly\nFemale Avg Weekly\nGender Wage Gap (%)\n\n\n\n\nLess than High School\n$533.41\n$379.76\n28.8%\n\n\nHigh School Graduate\n$752.16\n$568.17\n24.5%\n\n\nSome College\n$825.51\n$621.88\n24.7%\n\n\nAssociate Degree\n$1,018.22\n$780.15\n23.4%\n\n\nBachelor’s Degree\n$1,418.39\n$1,118.62\n21.1%\n\n\nAdvanced Degree\n$1,903.02\n$1,423.33\n25.2%\n\n\n\n\n\nThe wage gap persists across all education levels, but is notably different in its magnitude. Interestingly, the gap often widens as education increases, suggesting that while higher education raises the “floor” for everyone, “glass ceilings” may still affect women at higher professional levels.\n\n\n\n\n\nUnion membership has traditionally been seen as a way to standardize wages and reduce inequality.\n\n\n\nGender Wage Gap: Union vs Non-Union\n\n\n\n\n\n\n\n\n\n\n\nUnion Member\nMale Avg Weekly\nFemale Avg Weekly\nGender Wage Gap (%)\n\n\n\n\nNo\n$1,022.50\n$803.35\n21.4%\n\n\nYes\n$1,171.48\n$1,015.59\n13.3%\n\n\n\n\n\nUnion membership appears to reduce the gender wage gap. For union members, the gap is 13.3%, compared to 21.4% for non-union members.\n\n\n\n\n\nThe data from 2014 California MORG shows clear trends: 1. Education Payoff: There is a clear upward trajectory in earnings associated with education. 2. Persistent Gap: A gender wage gap exists at every educational tier. 3. Union Influence: Unionization significantly impacts wage distribution and the gender gap."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "vis/analysis/earnings_report_california_2014.html#introduction",
+    "href": "vis/analysis/earnings_report_california_2014.html#introduction",
+    "title": "Analysis: The State of Earnings in California (2014)",
     "section": "",
-    "text": "I am a Data Scientist in training with a passion for turning complex data into interactive stories. This portfolio is a collection of my work, exploring the intersection of Object-Oriented Programming (OOP), Data Analysis, and Interactive Web Development.\n\n\n\n📊 Interactive Projects: Explore dashboards built with Shiny for Python and Quarto.\n💻 OOP Design: See how I use object-oriented principles to build clean, reusable data pipelines.\n🧬 Data Insights: Deep dives into OECD datasets and more.\n\nFeel free to explore my Projects or learn more About Me."
+    "text": "This report analyzes data from the 2014 Merged Outgoing Rotation Groups (MORG) of the Current Population Survey (CPS). The focus is on California, examining how weekly earnings are influenced by education, gender, and union membership.\nDataset Overview: - Total California respondents: 12,490 - Overall average weekly earnings: $947.59"
   },
   {
-    "objectID": "index.html#hi-im-liza",
-    "href": "index.html#hi-im-liza",
-    "title": "Welcome",
+    "objectID": "vis/analysis/earnings_report_california_2014.html#education-the-primary-driver-of-earnings",
+    "href": "vis/analysis/earnings_report_california_2014.html#education-the-primary-driver-of-earnings",
+    "title": "Analysis: The State of Earnings in California (2014)",
     "section": "",
-    "text": "I am a Data Scientist in training with a passion for turning complex data into interactive stories. This portfolio is a collection of my work, exploring the intersection of Object-Oriented Programming (OOP), Data Analysis, and Interactive Web Development.\n\n\n\n📊 Interactive Projects: Explore dashboards built with Shiny for Python and Quarto.\n💻 OOP Design: See how I use object-oriented principles to build clean, reusable data pipelines.\n🧬 Data Insights: Deep dives into OECD datasets and more.\n\nFeel free to explore my Projects or learn more About Me."
+    "text": "Education remains the most significant predictor of weekly earnings.\n\n\n\nEarnings by Education Level\n\n\n\n\n\n\n\n\n\n\n\nEducation Level\nMale Avg Weekly\nFemale Avg Weekly\nGender Wage Gap (%)\n\n\n\n\nLess than High School\n$533.41\n$379.76\n28.8%\n\n\nHigh School Graduate\n$752.16\n$568.17\n24.5%\n\n\nSome College\n$825.51\n$621.88\n24.7%\n\n\nAssociate Degree\n$1,018.22\n$780.15\n23.4%\n\n\nBachelor’s Degree\n$1,418.39\n$1,118.62\n21.1%\n\n\nAdvanced Degree\n$1,903.02\n$1,423.33\n25.2%\n\n\n\n\n\nThe wage gap persists across all education levels, but is notably different in its magnitude. Interestingly, the gap often widens as education increases, suggesting that while higher education raises the “floor” for everyone, “glass ceilings” may still affect women at higher professional levels."
+  },
+  {
+    "objectID": "vis/analysis/earnings_report_california_2014.html#the-union-membership-premium",
+    "href": "vis/analysis/earnings_report_california_2014.html#the-union-membership-premium",
+    "title": "Analysis: The State of Earnings in California (2014)",
+    "section": "",
+    "text": "Union membership has traditionally been seen as a way to standardize wages and reduce inequality.\n\n\n\nGender Wage Gap: Union vs Non-Union\n\n\n\n\n\n\n\n\n\n\n\nUnion Member\nMale Avg Weekly\nFemale Avg Weekly\nGender Wage Gap (%)\n\n\n\n\nNo\n$1,022.50\n$803.35\n21.4%\n\n\nYes\n$1,171.48\n$1,015.59\n13.3%\n\n\n\n\n\nUnion membership appears to reduce the gender wage gap. For union members, the gap is 13.3%, compared to 21.4% for non-union members."
+  },
+  {
+    "objectID": "vis/analysis/earnings_report_california_2014.html#conclusion",
+    "href": "vis/analysis/earnings_report_california_2014.html#conclusion",
+    "title": "Analysis: The State of Earnings in California (2014)",
+    "section": "",
+    "text": "The data from 2014 California MORG shows clear trends: 1. Education Payoff: There is a clear upward trajectory in earnings associated with education. 2. Persistent Gap: A gender wage gap exists at every educational tier. 3. Union Influence: Unionization significantly impacts wage distribution and the gender gap."
+  },
+  {
+    "objectID": "vis/analysis/hourly_wage_report.html",
+    "href": "vis/analysis/hourly_wage_report.html",
+    "title": "Analysis: Hourly Wages by Occupation and Education Level (California)",
+    "section": "",
+    "text": "This report examines the relationship between educational attainment and hourly compensation across the most frequent occupations in California using the 2014 Merged Outgoing Rotation Groups (MORG) dataset.\n\n\nThe following heatmap displays the average hourly wage for the top 15 occupations by respondent frequency, segmented by their highest level of education. The color scale ranges from grey ($0) to deep green ($50+).\n\n\n\nHourly Wage Heatmap\n\n\n\n\n\n\nEducational Premium: In almost every occupation, individuals with a Bachelor’s or Advanced Degree earn significantly more than their counterparts with only a high school education.\nHigh-Wage Leaders: Registered Nurses and Accountants/Auditors with advanced degrees represent the highest earning segments in this dataset, frequently exceeding the $40/hour mark.\nThe Wage Floor: Entry-level service roles such as Cashiers and Waiters/Waitresses show a much tighter wage distribution, often staying in the grey-to-light-green zone (under $15/hour) regardless of education level.\nSpecialized vs. General Roles: Professional occupations show a much steeper “return on education” compared to administrative or manual labor roles.\n\n\n\n\nData derived from the 2014 CPS Merged Outgoing Rotation Groups (MORG) dataset, filtered specifically for California respondents."
+  },
+  {
+    "objectID": "vis/analysis/hourly_wage_report.html#visualization-hourly-wage-heatmap",
+    "href": "vis/analysis/hourly_wage_report.html#visualization-hourly-wage-heatmap",
+    "title": "Analysis: Hourly Wages by Occupation and Education Level (California)",
+    "section": "",
+    "text": "The following heatmap displays the average hourly wage for the top 15 occupations by respondent frequency, segmented by their highest level of education. The color scale ranges from grey ($0) to deep green ($50+).\n\n\n\nHourly Wage Heatmap"
+  },
+  {
+    "objectID": "vis/analysis/hourly_wage_report.html#key-observations",
+    "href": "vis/analysis/hourly_wage_report.html#key-observations",
+    "title": "Analysis: Hourly Wages by Occupation and Education Level (California)",
+    "section": "",
+    "text": "Educational Premium: In almost every occupation, individuals with a Bachelor’s or Advanced Degree earn significantly more than their counterparts with only a high school education.\nHigh-Wage Leaders: Registered Nurses and Accountants/Auditors with advanced degrees represent the highest earning segments in this dataset, frequently exceeding the $40/hour mark.\nThe Wage Floor: Entry-level service roles such as Cashiers and Waiters/Waitresses show a much tighter wage distribution, often staying in the grey-to-light-green zone (under $15/hour) regardless of education level.\nSpecialized vs. General Roles: Professional occupations show a much steeper “return on education” compared to administrative or manual labor roles."
+  },
+  {
+    "objectID": "vis/analysis/hourly_wage_report.html#data-source",
+    "href": "vis/analysis/hourly_wage_report.html#data-source",
+    "title": "Analysis: Hourly Wages by Occupation and Education Level (California)",
+    "section": "",
+    "text": "Data derived from the 2014 CPS Merged Outgoing Rotation Groups (MORG) dataset, filtered specifically for California respondents."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "If you’d like to collaborate on a project or just say hi, feel free to reach out through any of the platforms below!\n\n\n\nLinkedIn Profile\nGitHub Profile\n\n\n\n\n\nEmail: schlachtovszky_liza@ceu.edu.com\n\n\n\n\n\nBased in: Budapest, Hungary / Vienna, Austria (Central European University)"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "If you’d like to collaborate on a project or just say hi, feel free to reach out through any of the platforms below!\n\n\n\nLinkedIn Profile\nGitHub Profile\n\n\n\n\n\nEmail: schlachtovszky_liza@ceu.edu.com\n\n\n\n\n\nBased in: Budapest, Hungary / Vienna, Austria (Central European University)"
   }
 ]
