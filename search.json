@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "Hello! I’m Liza, a Data Science student. This portfolio showcases my work in data analysis and object-oriented programming.\nFeel free to explore my projects!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m currently a 3rd-year Data Science and Society student at Central European University. My interests include machine learning, object-oriented programming, and interactive data visualizations."
+  },
+  {
+    "objectID": "projects/ds_project.html",
+    "href": "projects/ds_project.html",
+    "title": "OECD Health Risk Factors",
+    "section": "",
+    "text": "In this project, I analyze health risk factors across OECD countries using an Object-Oriented Programming (OOP) approach. By structuring the data processing logic into classes, I’ve created a maintainable and scalable analysis pipeline.\n\n\n\nOOP Structure: Data loading, cleaning, and filtering are handled by a dedicated OECDDataProcessor class.\nInteractive Visualization: Explore trends in alcohol consumption, tobacco use, and obesity across different nations.\nDynamic Filtering: Select specific health measures and countries to see how health trends have evolved over decades.\n\n\n\n\nExplore the data yourself using the interactive tool below."
+  },
+  {
+    "objectID": "projects/ds_project.html#project-overview",
+    "href": "projects/ds_project.html#project-overview",
+    "title": "OECD Health Risk Factors",
+    "section": "",
+    "text": "In this project, I analyze health risk factors across OECD countries using an Object-Oriented Programming (OOP) approach. By structuring the data processing logic into classes, I’ve created a maintainable and scalable analysis pipeline.\n\n\n\nOOP Structure: Data loading, cleaning, and filtering are handled by a dedicated OECDDataProcessor class.\nInteractive Visualization: Explore trends in alcohol consumption, tobacco use, and obesity across different nations.\nDynamic Filtering: Select specific health measures and countries to see how health trends have evolved over decades.\n\n\n\n\nExplore the data yourself using the interactive tool below."
+  },
+  {
+    "objectID": "projects/shiny_app.html",
+    "href": "projects/shiny_app.html",
+    "title": "Interactive Shiny App",
+    "section": "",
+    "text": "This is an interactive dashboard created with Shiny for Python and hosted on Posit Connect."
+  },
+  {
+    "objectID": "portfolio_instruction.html",
+    "href": "portfolio_instruction.html",
+    "title": "Individual project: Portfolio creation",
+    "section": "",
+    "text": "In this task, you will use your knowledge in object-oriented programming to create an online presence for yourself as a Data Scientist.\nThere are three aspects to OOP in the wild. First, OOP is a paradigm as you write a program to structure it. Second, OOP is a perspective with which to approach problems and how to see the world. Third, OOP is a mindset with which you can approach problems and act upon the world.\nThis project tries to introduce you to OOP in the wild. As you create a website with github pages, OOP is not necessary the first mode (web rendering is usually based on static html code that is not a priori OOP. However, to represent complex websites, you use more complex features and using OOP may help you. You will not learn html coding or css style sheets but you will use your knowledge of OOP concepts to instruct github copilot to help you create an interactive, interesting portfolio.\nThe second aspect is to show your data prowess, and we do this by embedding a shiny application server in your website. Github pages cannot execute code. However, you can use external services like the posit connect cloud to have an interactive window that executes python code. In this window, you are supposed to showcase your previous data science projects. You may investigate yourself how shiny works (and receive a short introduction in the class). Essentially, shiny makes graphs interactive and allows users to interact with your outcome visualisations. As a preparation, please revisit your previous work and find one to three projects, that you would like to highlight. To expand your portfolio, I would recommend you to add new results from other data science projects throughout your studies to showcase what you can do.\n\n\n\nTo complete this project, you have to create your online presence and fill it with content of your choice. You will not be graded for your actual content or the looks of your website. Instead, you will be graded on how you executed the project and how well you managed to implement OOP principles in the website.\nPlease investigate my github example here: https://github.com/jugdemon/2026_oop_portfolio\nAnd the corresponding github-pages:\nhttps://jugdemon.github.io/2026_oop_portfolio/\nYou may either fork the repository (create a copy to start with), or start from scratch. You fill find instructions for both below.\n\nCreate your github repository called “portfolio”. This will allow us to create your portfolio/personal website under https://.github.io/portfolio where user is your github user name. a. Use the repo link https://github.com//portfolio.git to setup your cloud computing and visual studio in the following steps\nCreate a posit connect cloud account via github integration.\n\nHere you can create data spaces for python to host your shiny app and display information interactively.\nSelect you want to deploy both apps and documents.\nSelect you prefer python.\n\nInstall VS Code and activate all AI features via github integration. If you have the github student version, you get more advanced features. Activate your student version if you haven’t yet. a. Go to the market place and install extensions for python, quarto and shiny.\nStart a chat on the right side. Ask the chat to create a project for your portfolio that uses quatro as a website and shiny for the visualization. The shiny server should run on posit cloud using the python version. All the code should be synced to your portfolio repository."
+  },
+  {
+    "objectID": "portfolio_instruction.html#context",
+    "href": "portfolio_instruction.html#context",
+    "title": "Individual project: Portfolio creation",
+    "section": "",
+    "text": "In this task, you will use your knowledge in object-oriented programming to create an online presence for yourself as a Data Scientist.\nThere are three aspects to OOP in the wild. First, OOP is a paradigm as you write a program to structure it. Second, OOP is a perspective with which to approach problems and how to see the world. Third, OOP is a mindset with which you can approach problems and act upon the world.\nThis project tries to introduce you to OOP in the wild. As you create a website with github pages, OOP is not necessary the first mode (web rendering is usually based on static html code that is not a priori OOP. However, to represent complex websites, you use more complex features and using OOP may help you. You will not learn html coding or css style sheets but you will use your knowledge of OOP concepts to instruct github copilot to help you create an interactive, interesting portfolio.\nThe second aspect is to show your data prowess, and we do this by embedding a shiny application server in your website. Github pages cannot execute code. However, you can use external services like the posit connect cloud to have an interactive window that executes python code. In this window, you are supposed to showcase your previous data science projects. You may investigate yourself how shiny works (and receive a short introduction in the class). Essentially, shiny makes graphs interactive and allows users to interact with your outcome visualisations. As a preparation, please revisit your previous work and find one to three projects, that you would like to highlight. To expand your portfolio, I would recommend you to add new results from other data science projects throughout your studies to showcase what you can do."
+  },
+  {
+    "objectID": "portfolio_instruction.html#grading",
+    "href": "portfolio_instruction.html#grading",
+    "title": "Individual project: Portfolio creation",
+    "section": "",
+    "text": "To complete this project, you have to create your online presence and fill it with content of your choice. You will not be graded for your actual content or the looks of your website. Instead, you will be graded on how you executed the project and how well you managed to implement OOP principles in the website.\nPlease investigate my github example here: https://github.com/jugdemon/2026_oop_portfolio\nAnd the corresponding github-pages:\nhttps://jugdemon.github.io/2026_oop_portfolio/\nYou may either fork the repository (create a copy to start with), or start from scratch. You fill find instructions for both below.\n\nCreate your github repository called “portfolio”. This will allow us to create your portfolio/personal website under https://.github.io/portfolio where user is your github user name. a. Use the repo link https://github.com//portfolio.git to setup your cloud computing and visual studio in the following steps\nCreate a posit connect cloud account via github integration.\n\nHere you can create data spaces for python to host your shiny app and display information interactively.\nSelect you want to deploy both apps and documents.\nSelect you prefer python.\n\nInstall VS Code and activate all AI features via github integration. If you have the github student version, you get more advanced features. Activate your student version if you haven’t yet. a. Go to the market place and install extensions for python, quarto and shiny.\nStart a chat on the right side. Ask the chat to create a project for your portfolio that uses quatro as a website and shiny for the visualization. The shiny server should run on posit cloud using the python version. All the code should be synced to your portfolio repository."
+  }
+]
