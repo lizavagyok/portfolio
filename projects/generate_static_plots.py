@@ -57,13 +57,19 @@ class StaticPlotGenerator:
         
         # Plot 2: Obesity rates comparison
         plt.figure(figsize=(10, 6))
-        obese_df = df[df['measure'] == 'Obese'].sort_values('year', ascending=False)
-        if not obese_df.empty:
-            latest_year = obese_df['year'].max()
-            latest_obese = obese_df[obese_df['year'] == latest_year].sort_values('value', ascending=False).head(15)
+        
+        # Get latest available data point for EACH country for the 'Obese' measure
+        obese_all = df[df['measure'] == 'Obese'].copy()
+        if not obese_all.empty:
+            # Group by country and get the index of the maximum year for each
+            idx = obese_all.groupby('country')['year'].idxmax()
+            latest_obese_per_country = obese_all.loc[idx]
             
-            plt.bar(latest_obese['country'], latest_obese['value'], color='salmon')
-            plt.title(f'Top 15 Countries by Obesity Rate ({latest_year})', fontsize=14)
+            # Now take the top 15 of these latest data points
+            top_15_obese = latest_obese_per_country.sort_values('value', ascending=False).head(15)
+            
+            plt.bar(top_15_obese['country'], top_15_obese['value'], color='salmon')
+            plt.title('Top 15 OECD Countries by Obesity Rate (Most Recent Data)', fontsize=14)
             plt.xlabel('Country')
             plt.ylabel('Percentage of population')
             plt.xticks(rotation=45, ha='right')
