@@ -5,6 +5,7 @@ title: "About Me"
 ### Who I Am
 
 I am a **3rd-year Data Science and Society student** at Central European University, majoring in Data Science and Economics.
+
 ---
 
 ### Education
