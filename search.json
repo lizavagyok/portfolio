@@ -91,11 +91,11 @@
     "text": "In this project, I analyze health risk factors across OECD countries using an Object-Oriented Programming (OOP) approach. By structuring the data processing logic into classes, I’ve created a maintainable and scalable analysis pipeline.\n\n\n\nOOP Structure: Data loading, cleaning, and filtering are handled by a dedicated OECDDataProcessor class.\nInteractive Visualization: Explore trends in alcohol consumption, tobacco use, and obesity across different nations.\nDynamic Filtering: Select specific health measures and countries to see how health trends have evolved over decades.\n\n\n\n\nBelow are static visualizations generated from the OECD health risk factors dataset.\n\n\n\n\n\n\n\n\nFigure 1: Alcohol Consumption Trends in select OECD countries\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: Top 15 Countries by Obesity Rate (Latest Year)"
   },
   {
-    "objectID": "about.html#i-am-a-3rd-year-data-science-and-society-student-at-central-european-university-majoring-in-data-science-and-economics.",
-    "href": "about.html#i-am-a-3rd-year-data-science-and-society-student-at-central-european-university-majoring-in-data-science-and-economics.",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "About Me",
-    "section": "I am a 3rd-year Data Science and Society student at Central European University, majoring in Data Science and Economics.",
-    "text": "I am a 3rd-year Data Science and Society student at Central European University, majoring in Data Science and Economics.\n\nEducation\n\nBSc in Data Science and Society | Central European University (2023 - 2026)\n\n\n\nTechnical Skills\n\nProgramming: Python (Pandas, NumPy, Matplotlib, Shiny), R, SQL\nSoftware Engineering: Object-Oriented Programming (OOP), Git/GitHub\nVisualization: Quarto, Tableau, Plotly\nData Science: Machine Learning, Statistical Modeling, Data Pre-processing\n\n\n\nInterests\n\nInteractive Visualization: Designing dashboards that make complex data accessible.\nSustainable Data: Exploring environmental datasets through a data-driven lens.\nAI Ethics: Understanding the societal impact of algorithmic decision-making."
+    "section": "",
+    "text": "Who I Am\nI am a 3rd-year Data Science and Society student at Central European University, majoring in Data Science and Economics.\n\n\n\nEducation\n\nBSc in Data Science and Society | Central European University (2023 - 2026)\n\n\n\nTechnical Skills\n\nProgramming: Python (Pandas, NumPy, Matplotlib, Shiny), R, SQL\nSoftware Engineering: Object-Oriented Programming (OOP), Git/GitHub\nVisualization: Quarto, Tableau, Plotly\nData Science: Machine Learning, Statistical Modeling, Data Pre-processing\n\n\n\nInterests\n\nInteractive Visualization: Designing dashboards that make complex data accessible.\nSustainable Data: Exploring environmental datasets through a data-driven lens.\nAI Ethics: Understanding the societal impact of algorithmic decision-making."
   },
   {
     "objectID": "vis/analysis/earnings_report_california_2014.html",
